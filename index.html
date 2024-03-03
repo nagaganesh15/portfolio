@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <title>ganesh portfolio</title>
+        <style>
+            body{
+                padding: 0px;
+                margin: 0px;
+                background-color: ;
+                /* background-image: url('home.gif'); */
+
+            }
+            
+            #home{
+                width: 100%;
+                height: 600px;
+                color: white;
+                background-image: url('home.gif');
+            }
+            #img1{
+                padding: 50px;
+                padding-right: 80px;
+                float: right;
+            }
+            #img{
+                border-radius: 20%;
+            }
+            #img:hover{
+                transform:scale(1.2);
+                cursor:zoom-in;
+            }
+            #para {
+                float: left;    
+                padding-left: 500px;
+                padding-top: 30px;
+            }
+            #co{
+                color:7CFC00 ;
+                font-size: 35px;
+            }
+            #ba{
+                display: none;
+            }
+            #nav{
+                cursor: pointer;
+                position: fixed ;
+                float: left;
+                padding-top: 30px;
+                padding-left: 10px;
+            }
+            #nav:hover #ba{
+                display:block;
+            }
+            #ho{
+                box-shadow:0px 0px 5px 5px yellow;
+                background-color: rgb(0,250,154);
+                font-size: 25;
+                border-radius: 50px;
+                width: 180;
+                padding: 5;
+                margin-left: 15;
+            }
+            #ho:hover{
+                box-shadow:0px 0px 5px 5px yellow;
+                background-color: ;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            #ba button
+            {
+                cursor: pointer;
+                box-shadow:0px 0px 5px 5px rgb(0,255,127);
+                background-color: yellow;   
+                width: 180;
+                padding: 5;
+                font-size: 25;
+
+                margin: 15;
+                border-radius: 50px;
+                display: block;
+            }
+            #ba button:hover{
+                box-shadow:0px 0px 5px 5px rgb(255,0,255);
+                background-color: ;
+            } 
+            #resume{
+                font-size: 25px; 
+                border-radius: 50px;
+                cursor: pointer;
+                background-color: cyan; 
+                margin-left: 50px;
+                margin-top: 50px;
+                height: 50px; 
+                width: 230px;
+                margin-bottom: 50px;
+                box-shadow: 0px 0px 4px 4px rgb(255,215,0);
+            }
+            #resume:hover{
+                box-shadow: 0px 0px 4px 4px rgb(	173,255,47);
+                border: 2px solid rgb(	173,255,47) ;
+                
+                transform: translateY(-2px);
+            }
+            #lin{
+                width: 60px;
+                height: 60px;
+                cursor: pointer;
+                border-radius: 50%;
+                background-size: 100% 100%;
+                margin-right: 10px; 
+            }
+            #lin:hover{
+                transform: scale(1.3);
+                box-shadow:0px 0px 3px 3px red;
+                
+            }
+            #matter{
+                /* float:left; */
+                padding-left: 10px;
+                padding-right: 20px;
+                font-size: 20px;
+                text-align: justify;
+            }
+            #about{
+                color: black;
+                padding-top:1px;
+                width: 100%;
+                height: 620px;
+                /* background-image: url('https://th.bing.com/th/id/OIP.48MZ3Hs-Q9SB5K0M2AdEkgHaEo?w=273&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); */
+                background-color: #D9EEE1;
+                /* background-color: #808080; */
+                /* background-image: url('home.gif'); */
+                /* background-repeat: no-repeat; */
+                /* background-size: cover; */
+                display: flex;
+            }
+            #pro1{
+                margin-left: 25;
+                margin-top: 10;
+                width: 450;
+                height: 400;
+                background-image: url('logo.jpg');
+            }
+            #school{
+                display: inline-block;
+                margin-left: 180px;
+            }
+            #school button{
+                height: 250px;
+                width: 250px;
+                background-color: lightblue;
+                box-shadow: 4px 4px blue;
+                /* border-color: yellow; */
+                
+            }
+            #school button:hover{
+                background-color: yellow;
+                box-shadow: 4px 4px;
+                border-color: magenta;
+            }
+            #school h5{
+                font-size: 20;
+            }
+            #school h3{
+                font-size: 20;
+            }
+        </style>
+    </head>
+    <body id="body">
+        <div id="home">
+            <div id="nav">            
+                <input type="button" value="Quick Links" id="ho">
+                <div id="ba">
+                    <button><a href="#home">Home</a></button>
+                    <button><a href="#about">About</a></button>
+                    <button><a href="#">Projects</a></button>
+                    <button><a href="#">Contact US</a></button>
+                </div>
+            </div>
+            <div id="para">
+                <h1 style="font-size: 50px; padding-left:50px;">My Protfolio</h1>
+                <h1 style="font-size:40px; color:FF00FF ;">Hi Everyone <img src="hi.gif" height="50px" width="50px"> </h1>
+                <h1>I am <i id="co" >Mullagi Naga Ganesh</i></h1>
+                <br>
+                <a href="https://www.linkedin.com/in/mullangi-naga-ganesh-5bb65527b/"><button id="lin" style="background-image: url('https://th.bing.com/th/id/OIP.e5DqB2ku7q9ZTE3vgU3gpAHaHw?w=201&h=210&c=7&r=0&o=5&dpr=1.3&pid=1.7') ;"></button></a>
+                <a href="mailto:nagaganesh.mullangi@gmail.com"><button id="lin" style="background-image: url('mail.jpeg') ;"></button></a>
+                <br>
+                <button id="resume">Dowload Resue</button>
+                <br>
+            </div>
+            <div id="img1">
+                <img src="logo.jpg" id="img">
+            </div>
+        </div>
+        <svg style="background-color:#D9EEE1;" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path></svg>
+        <div id="about">
+            <div id="matter">
+                <h1 style="text-align: center; color:red;">About Me</h1>
+                <p>I am Mullangi Naga Ganesh, a highly motivated and diligent individual currently pursuing B.Tech in Computer Science and Engineering. With a strong foundation in Java, C, Python, SQL, and data structures, I actively seek to enhance my skills through <l style=" color:# C71585">continuous learning and programming practice.</l> 
+                <a href="" style="padding-left: 0px;"><button id="lin" style="background-image: url('gfg.jpeg'); width: 30px; height: 30px;"></button></a>
+                <a href="" style="padding-left: 0px;"><button id="lin" style="background-image: url('https://th.bing.com/th/id/OIP.L2Jfuatqty2XAIUqYnr_pgHaHa?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); width: 30px; height: 30px;"></button></a>
+                <a href="" style="padding-left: 0px;"><button id="lin" style="background-image: url('https://th.bing.com/th/id/OIP.UnL_SHL8RUm7v_iWd_H74gAAAA?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); width: 30px; height: 30px;"></button></a>
+                <a href="" style="padding-left: 0px;"><button id="lin" style="background-image: url('codechef.jpeg'); width: 30px; height: 30px;"></button></a>
+            </p>
+                <p><u><a href="" style="color: FF8C00;">Certified in Python programming, HTML, and CSS</a></u>, I bring a diverse skill set and problem-solving mindset to any project. Proficient in English, Telugu, and Hindi, with a passion for coding, chess, and design, I thrive in collaborative environments and am eager to contribute to the growth of an organization while furthering my own development. Reach out to me at <a href="mailto:nagaganesh.mullangi@gmail.com" style="color: FF8C00;">nagaganesh.mullangi@gmail.com <button id="lin" style="background-image: url('mail.jpeg'); width: 30px; height: 30px;"></button></a>to explore how we can collaborate for success.</p>
+                <h2 style="text-align: center;">Education</h2>
+                <div id="school">
+                    <button>
+                        <h3>10th Class</h3>
+                        <h5>School: <l style="font-weight:10; padding: 0px;"> New Horizon E.M.H School, Kadapa</l></h5>
+                        <h5>Duration: <l style="font-weight:10; padding: 0px;">2019-2020</l></h5>
+                        <h5>Grade: <l style="font-weight:10; padding: 0px;"> CGPA: 9.88</l></h5>
+                    </button>
+                </div>
+                <div id="school">
+                    <button>
+                        <h3>Intermediate</h3>
+                        <h5>College: <l style="font-weight:10; padding: 0px;">Narayana Junior College, Kadapa</l></h5>
+                        <h5>Duration: <l style="font-weight:10; padding: 0px;">2020-2022</l></h5>
+                        <h5>Grade: <l style="font-weight:10; padding: 0px;">Marks: 954/1000</l></h5>
+                    </button>
+                </div>
+                <div id="school">
+                    <button>
+                        <h3>Graduation</h3>
+                        <h5>College: <l style="font-weight:10; padding: 0px;">KSRM College of Engineering, Kadapa</l></h5>
+                        <h5>Duration: <l style="font-weight:10; padding: 0px;">2022-2026</l></h5>
+                        <h5>Grade: <l style="font-weight:10; padding: 0px;">CGPA: 9.4</l></h5>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="project">
+            <button><img src="logo.jpg"></button>
+        </div>
+        <script>
+            function light()
+            {
+                let a=document.getElementById('bu').value;
+                if(a=="l")
+                {
+                    document.getElementById('body').style.backgroundColor='black';
+                    document.getElementById('bu').value='b';
+                    document.getElementById('body').style.color='white';
+                }
+                else if(a=="b")
+                {
+                    document.getElementById('body').style.backgroundColor='white';
+                    document.getElementById('body').style.color='black';
+                    document.getElementById('bu').value='l';
+                }
+            }
+
+
+        </script>
+    </body>
+</html>
