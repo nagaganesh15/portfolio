@@ -33,7 +33,7 @@
             #para {
 
                 float: left;    
-                padding-left: 20%;
+                padding-left: 30%;
                 padding-right: 10%;
                 padding-top: 30px;
                 /* padding-left: 500px; */
@@ -132,14 +132,16 @@
                 color: black;
                 padding-top:1px;
                 width: 100%;
-                height: 620px;
+                height: 650px;
                 /* background-image: url('https://th.bing.com/th/id/OIP.48MZ3Hs-Q9SB5K0M2AdEkgHaEo?w=273&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); */
                 background-color: #D9EEE1;
                 /* background-color: #808080; */
                 /* background-image: url('home.gif'); */
                 /* background-repeat: no-repeat; */
                 /* background-size: cover; */
-                display: flex;
+                /* display: flex; */
+                margin-bottom: 0px;
+                padding-bottom: 0px;
             }
             #pro1{
                 margin-left: 25;
@@ -158,7 +160,7 @@
                 width: 250px;
                 background-color: lightblue;
                 box-shadow: 4px 4px blue;
-                /* border-color: yellow; */
+                /* border-color: yellow;    */
                 
             }
             #school button:hover{
@@ -172,16 +174,158 @@
             #school h3{
                 font-size: 20;
             }
-            @media only screen and (max-width: 1000px) {
-                #para {
-                    float: left;    
-                    padding-left: 20%;
-                    padding-right: 0%;
-                    padding-top: 30px;
-                    /* padding-left: 500px; */
-                    /* padding-top: 30px; */
+            #project{
+                background-color: #fff4a3;
+                padding-top:1px;
+                
+            }
+            #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11{
+                /* display: inline-block; */
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 150px;
+                margin-top: 50px;
+            }
+            #p1 button,#p2 button,#p3 button,#p4 button,#p5 button,#p6 button,#p7 button,#p8 button,#p9 button,#p10 button,#p11 button{
+                height: 330px;
+                width: 300px;
+                text-align: center;
+                font-size: 30px;
+                /* background-image: url(Memory\ card\ photo.png); */
+                background-size: cover;
+                box-shadow: 5px 5px black;
+                border-radius: 10px;
+            }
+            #p1 h2,#p2 h2,#p3 h2,#p4 h2,#p5 h2,#p6 h2,#p7 h2,#p8 h2,#p9 h2,#p10 h2,#p11 h2{
+                display: none;
+            }
+            #p1 button:hover,#p2 button:hover,#p3 button:hover,#p4 button:hover,#p5 button:hover,#p6 button:hover,#p7 button:hover,#p8 button:hover,#p9 button:hover,#p10 button:hover,#p11 button:hover{
+                background-image: url();
+                background-color: black;
+                border-radius: 50%;
+                cursor: pointer;
+                border-color: magenta;
+                box-shadow:5px 3px 3px 3px gray;
+                /* height: 400px;
+                width: 400px; */
+            }
+            #p1 button:hover h2,#p2 button:hover h2,#p3 button:hover h2,#p4 button:hover h2,#p5 button:hover h2,#p6 button:hover h2,#p7 button:hover h2,#p8 button:hover h2,#p9 button:hover h2,#p10 button:hover h2,#p11 button:hover h2 {
+                display: block;
+                background-color: yellow;
+                padding-top: 30;
+                padding-bottom: 30;
+            }
+            #p1 button{
+                background-image: url(Memory\ card\ photo.png);
+            }
+            #p2 button{
+                background-image: url(Tic\ Tac\ Toe.png);
+            }
+            #p3 button{
+                background-image: url(Stone\ Paper.png);
+            }
+            #p4 button{
+                background-image: url(break\ the\ bricks.png);
+            }
+            #p5 button{
+                background-image: url(Guess\ the\ number.png);
+            }
+            #p6 button{
+                background-image: url(water\ drop.png);
+            }
+            #p7 button{
+                background-image: url(age\ calculator.png);
+            }
+            #p8 button{
+                background-image: url(day\ calculator.png);
+            }
+            #p9 button{
+                background-image: url(gpa\ calculator.png);
+            }
+            #p10 button{
+                background-image: url(programming\ calculator.png);
+            }
+            #mod1,#mod2,#mod3,#mod4,#mod5,#mod6,#mod7,#mod8,#mod9,#mod10,#mod11{
+                display: none;
+                position: fixed;
+                /* z-index: 1; */
+                /* left: 0; */
+                top: 0px;
+                /* bottom: ; */
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color:;
+            }
+            #blink {
+                animation: blinker 0.8s linear infinite;
+                /* color: red; You can change the color as you like */
+                text-decoration: none; /* Removes the underline */
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
                 }
             }
+            #mat{
+                /* overflow: auto; */
+                /* background-image: url('home.gif'); */
+                background-color: #ffc0c7;
+                margin-left: 8%;
+                margin-top: 1%;
+                width: 85%;
+                border: 3px solid pink;
+            }
+            #mat h1{
+                color:cyan;
+            }
+            #clo{
+                margin-left: 98%; 
+                padding: 5; 
+                background-color: aqua; 
+                cursor: pointer;
+            }
+            #vid{
+                width: 80%;
+                height: 500px;
+                /* margin-left: 50%; */
+                align-items: center;
+                
+            }
+            #certificate{
+                display: flex;
+            }
+            #cert{
+                background-image: url(certificate1.jpg);
+                width: 1000;
+                height: 800;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 0px;
+            }
+            /* #cert:hover{
+                background-image: url(certificate2.jpg);
+
+            } */
+            #certify{
+                display: none;
+                position: fixed;
+                left: 18%;
+                top: 18%;
+                
+                width: 1000px;
+                height: 800px;
+                overflow: auto;
+                background-color:;
+            }
+            #closecerti{
+                margin-left: 97%; 
+                padding: 5; 
+                background-color: aqua; 
+                cursor: pointer;
+            }
+            
         </style>
     </head>
     <body id="body">
@@ -202,6 +346,8 @@
                 <br>
                 <a href="https://www.linkedin.com/in/mullangi-naga-ganesh-5bb65527b/"><button id="lin" style="background-image: url('https://th.bing.com/th/id/OIP.e5DqB2ku7q9ZTE3vgU3gpAHaHw?w=201&h=210&c=7&r=0&o=5&dpr=1.3&pid=1.7') ;"></button></a>
                 <a href="mailto:nagaganesh.mullangi@gmail.com"><button id="lin" style="background-image: url('mail.jpeg') ;"></button></a>
+                <a href="mailto:nagaganesh.mullangi@gmail.com"><button id="lin" style="background-image: url('') ;">github</button></a>
+                
                 <br>
                 <button id="resume">Dowload Resue</button>
                 <br>
@@ -248,11 +394,737 @@
                 </div>
             </div>
         </div>
-
         <div id="project">
-            <button><img src="logo.jpg"></button>
+            <h1 style="text-align: center; padding-top: 0px;">Projects</h1>
+            <div id="p1">
+                <button onclick="model1()">
+                    <h2>Memory Card Game</h2>
+                </button>
+            </div>
+            <div id="p2">
+                <button onclick="model2()">
+                    <h2>Tic Tac Toe Game</h2>
+                </button>
+            </div>
+            <div id="p3">
+                <button onclick="model3()">
+                    <h2>Stone Paper Scrissor Game</h2>
+                </button>
+            </div>
+            <div id="p4">
+                <button onclick="model4()">
+                    <h2>Break the Bricks</h2>
+                </button>
+            </div>
+            <div id="p5">
+                <button onclick="model5()">
+                    <h2>Guess the Number</h2>
+                </button>
+            </div>
+            <div id="p6">
+                <button onclick="model6()">
+                    <h2>Catch the Drops Game</h2>
+                </button>
+            </div>
+            <div id="p7">
+                <button onclick="model7()">
+                    <h2>Age Calucaltor</h2>
+                </button>
+            </div>
+            <div id="p8">
+                <button onclick="model8()">
+                    <h2>Day Calculator</h2>
+                </button>
+            </div>
+            <div id="p9">
+                <button onclick="model9()">
+                    <h2>Gpa Calculator</h2>
+                </button>
+            </div>
+            <div id="p10">
+                <button onclick="model10()">
+                    <h2>Programming Calculator</h2>
+                </button>
+            </div>
+            <div id="p11">
+                <button onclick="model11()">
+                    <h2>Food Ordering Page</h2>
+                </button>
+            </div>
+            <div id="mod1">
+                <div id="mat">
+                    <button id="clo" onclick="clos1()">X</button>
+                    <h1 style="text-align: center;">Memory Card Game<a href="#" style="font-size: 25px;" id="blink"> Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                    <p>The Memory Card Game is a simple and interactive web-based game designed to test and improve the player's memory skills. The objective is to find all matching pairs of cards in the least number of steps and shortest time possible.</p>
+                    <h2>Features</h2>
+                    <ul>
+                        <li><b>Interactive UI:</b> The game interface is user-friendly with visually appealing buttons and backgrounds.</li>
+                        <li><b>Dynamic Gameplay:</b> The positions of the cards are randomized each time the game starts, ensuring a unique experience every time.</li>
+                        <li><b>Timer:</b> The game includes a timer that tracks the time taken to complete the game.</li>
+                        <li><b>Step Counter:</b> The game keeps track of the number of steps taken by the player to complete the game.</li>
+                        <li><b>Restart Functionality:</b> Players can restart the game at any time to try and improve their performance.</li>
+                    </ul>
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li><b>HTML:</b> Provides the structure of the game interface.</li>
+                        <li><b>CSS: </b>Styles the game elements, including buttons, background, and layout.</li>
+                        <li><b>JavaScript: </b>Implements the game logic, including randomizing card positions, handling user interactions, and tracking game progress.</li>
+                    </ul>
+                    <h2>How to Play</h2>
+                    <ol>
+                        <li><b>Start the Game:</b> Click the "Play" button to start the game. The timer will begin, and the cards will be ready for interaction.</li>
+                        <li><b>Flip the Cards:</b> Click on any card to flip it and reveal the image underneath. Try to remember the image and its position.</li>
+                        <li><b>Find Matches:</b> Click on another card to find its matching pair. If the cards match, they will remain visible. If they do not match, they will be flipped back over.</li>
+                        <li><b>Track Your Progress: </b>The number of steps taken is displayed on the screen. Aim to complete the game in the fewest steps possible.
+                        </li>
+                        <li><b>Restart if Needed:</b>If you want to try again, click the "Restart" button to reset the game.</li>
+                    </ol>
+                    <h2>Conclusion</h2>
+                    <p>The Memory Card Game is a fun and engaging project that showcases the use of HTML, CSS, and JavaScript to create an interactive web application. It is an excellent example of how to implement game logic and user interaction in a web-based environment. This project not only provides entertainment but also helps in improving memory skills.</p>
+                    <h1 style="color:black; background-color: yellow; " id="moving"><a href="#">Click here to Play Game</a></h1>
+                </div>
+            </div>
+            <div id="mod2">
+                <div id="mat">
+                    <button id="clo" onclick="clos2()">X</button>
+                    <h1 style="text-align: center;">TicTacToe Game<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                    <p>The TicTacToe Game is a classic two-player game implemented as a web-based application. It allows players to enjoy a simple yet engaging game of TicTacToe, complete with player names, a reset button, and visual feedback for wins or draws.</p>
+                    <h2>Features</h2>
+                    <ul>
+                        <li><b>Interactive User Interface:</b> The game has a clean and interactive design with large, clickable buttons for easy play.</li>
+                        <li><b>Player Names:</b> Players can enter their names, which are displayed when a player wins.</li>
+                        <li><b>Reset Functionality:</b> The game can be reset at any time, clearing the board and player names.</li>
+                        <li><b>Winning and Draw Detection:</b> The game automatically detects and announces the winner or a draw.</li>
+                        <li><b>Background Images:</b> The game features a changing background image upon winning to celebrate the victory.</li>
+                    </ul>
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li><b>HTML:</b> Provides the structure of the game interface.</li>
+                        <li><b>CSS: </b>Styles the game elements, including buttons, background, and layout.</li>
+                        <li><b>JavaScript:</b> Implements the game logic, including player moves, win/draw detection, and reset functionality.</li>
+                        
+                    </ul>
+                    <h2>How to Play</h2>
+                    <ol>
+                        <li><b>Enter Player Names:</b> Enter the names of Player 1 and Player 2 in the provided input fields</li>
+                        <li><b>Start Playing:</b> Players take turns clicking on the buttons to mark their moves. Player 1 uses 'X' and Player 2 uses 'O'.</li>
+                        <li><b>Win Detection:</b> The game will automatically detect a win or draw and display the result.</li>
+                        <li><b>Reset the Game:</b> Click the "Reset" button to start a new game.</li>
+                    </ol>
+                    <h2>Conclusion</h2>
+                    <p>The TicTacToe Game project is a great example of using HTML, CSS, and JavaScript to create an interactive and enjoyable web application. It provides a fun way to demonstrate basic game logic and user interaction in a browser environment. This project is suitable for showcasing in a portfolio to highlight skills in web development and game design.</p>
+                </div>
+            </div>
+            <div id="mod3">
+                <div id="mat">
+                    <button id="clo" onclick="clos3()">X</button>
+                    <h1 style="text-align: center;">Rock Paper Scissors Game<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Project Overview</h2>
+                    <p>I recently developed a web-based Rock Paper Scissors game. This project allowed me to enhance my skills in HTML, CSS, and JavaScript, and create an engaging and interactive user experience. Below are the key features and functionalities of the game.</p>
+                    <h2>Features</h2>
+                    <ol>
+                        <li><h3>Interactive UI:</h3></li>
+                        <ul>
+                            <li>The game has a visually appealing user interface with background images and buttons that change appearance when hovered over.</li>
+                            <li>Users can easily select their moves (stone, paper, or scissors) with corresponding buttons.</li>
+                        </ul>
+                        <li><h3>Level Selection:</h3></li>
+                        <ul>
+                            <li>Players can choose the number of rounds they want to play from a dropdown menu.</li>
+                            <li>Options range from 5 to 50 rounds, providing flexibility for different game lengths.
+                            </li>
+                        </ul>
+                        <li><h3>Gameplay:</h3></li>
+                        <ul>
+                            <li>The game displays the user's and computer's choices with images.</li>
+                            <li>Results of each round (win, lose, draw) are shown immediately.</li>
+                            <li>The score is updated dynamically after each round.</li>
+                        </ul>
+                        <li><h3>Scoreboard:</h3></li>
+                        <ul>
+                            <li>A scoreboard tracks the scores of both the user and the computer.</li>
+                            <li>The game announces the winner and updates the background image accordingly when the chosen level is reached.</li>
+                        </ul>
+                        <li><h3>Restart Functionality:</h3></li>
+                        <ul>
+                            <li>Users can restart the game at any time, resetting the scores and level selection.</li>
+                        </ul>
+                    </ol>
+                    <h2>How It Works</h2>
+                    <ul>
+                        <li><b>User Interface: </b>The game interface is centered within a styled div box, providing a clear and structured layout.</li>
+                        <li><b>Level Selection: </b>Upon selecting a level, the game begins counting rounds.</li>
+                        <li><b>Player Moves: </b>Players click on the stone, paper, or scissors buttons to make their move. The computer's move is randomly generated.
+                        </li>
+                        <li><b>Result Calculation: </b>The game logic determines the winner of each round and updates the results and scores.</li>
+                        <li><b>End of Game: </b>When the user's or computer's score reaches the selected level, the game announces the winner and updates the background image to indicate the result.</li>
+                    </ul>
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li><b>HTML:</b> For structuring the game layout.</li>
+                        <li><b>CSS: </b>For styling the game elements, including buttons, images, and the overall layout.</li>
+                        <li><b>JavaScript:</b> For handling game logic, user interactions, and dynamic updates.</li>
+                    </ul>
+                    <h2>Conclusion</h2>
+                    <p>This Rock Paper Scissors game project was a fun and educational experience. It helped me improve my coding skills and understand how to create a complete interactive application. I hope you enjoy playing it as much as I enjoyed making it!</p>
+                </div>
+            </div>
+            <div id="mod4">
+                <div id="mat">
+                    <button id="clo" onclick="clos4()">X</button>
+                    <h1 style="text-align: center;">Break the Bricks Game<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Features</h2>
+                    <ol>
+                        <li><h3>Responsive Design:</h3></li>
+                        <ul>
+                            <li><b>Mobile-Friendly:</b> Players can tap or swipe to control the ball.</li>
+                            <li><b>Desktop-Friendly:</b> Players can use arrow keys for movement and the Enter or Up arrow key to blast bricks.</li>
+                        </ul>
+                        <li><h3>Game Mechanics:</h3></li>
+                        <ul>
+                            <li>A ball moves left and right automatically, and players can blast bricks by creating additional balls.A ball moves left and right automatically, and players can blast bricks by creating additional balls.</li>
+                            <li>Falling bricks are randomly generated, and players must break them to score points.
+                            </li>
+                            <li>The game keeps track of the highest score using local storage.</li>
+                        </ul>
+                        <li><h3>User Interface:</h3></li>
+                        <ul>
+                            <li>The game includes a start button, score display, and highest score display.</li>
+                            <li>Clear instructions are provided for both mobile and desktop users.</li>
+                        </ul>
+                        <li><h3>Interactive Elements:</h3></li>
+                        <ul>
+                            <li>Ball and brick elements are visually distinct and easy to identify.</li>
+                            <li>Controls are intuitive, with touch/mouse and keyboard inputs seamlessly integrated.</li>
+                        </ul>
+                    </ol>
+                    <ul>
+                        <li>Mobile:</li>
+                        <ul>
+                            <li><b>Move Left: </b>Tap or swipe the left side of the screen.</li>
+                            <li><b>Move Right: </b>Tap or swipe the right side of the screen.</li>
+                            <li><b>Blast Bricks: </b>Tap the middle of the screen.</li>
+                        </ul>
+                        <li>Mobile:</li>
+                        <ul>
+                            <li><b>Move Left: </b>Use the left arrow key.</li>
+                            <li><b>Move Right: </b>Use the right arrow key.</li>
+                            <li><b>Blast Bricks: </b>Use the up arrow key or press Enter.</li>
+                        </ul>
+                    </ul>
+                    <h2>Technical Highlights:</h2>
+                    <ul>
+                        <li><b>HTML & CSS:</b>Structured layout and responsive design to ensure a smooth user experience across devices.
+                        </li>
+                        <li><b>JavaScript:</b>Implements game logic, including ball movement, brick creation, and collision detection.</li>
+                        <li><b>Local Storage:</b>Saves and displays the highest score achieved by the player.</li>
+                    </ul>
+                    <h2>Challenges and Learning:</h2>
+                    <ul>
+                        <li><b>Responsive Design:</b> Ensuring the game is playable on both mobile devices and desktops required careful planning and implementation.</li>
+                        <li><b>Game Logic:</b> Developing the logic for ball movement and collision detection was a rewarding challenge.</li>
+                        <li><b>User Experience:</b> Creating an intuitive and engaging user interface was a key focus.</li>
+                    </ul>
+                    <h2>Conclusion:</h2>
+                    <p>Developing "Break the Bricks" was a fantastic experience that helped me improve my coding skills and learn more about game development. I hope you enjoy playing the game as much as I enjoyed creating it.</p>
+                </div>
+            </div>
+            <div id="mod5">
+                <div id="mat">
+                    <button id="clo" onclick="clos5()">X</button>
+                    <h1 style="text-align: center;">Guess the Number Game<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Features:</h2>
+                    <ol>
+                        <li><h3>Responsive Design:</h3></li>
+                        <ul>
+                            <li>The game is designed to be user-friendly across various devices, ensuring a smooth experience on both mobile phones and desktops.</li>
+                        </ul>
+                        <li><h3>Game Mechanics:</h3></li>
+                        <ul>
+                            <li>Players can select different levels of difficulty, choosing a range between 1 to 50, 1 to 100, up to 1 to 500.</li>
+                            <li>The game generates a random number within the chosen range, and players have to guess the number.
+                            </li>
+                            <li>If the guess is incorrect, hints are provided to help narrow down the possibilities.</li>
+                            <li>The score is tracked and displayed, with the highest score saved using local storage.</li>
+                           
+                        </ul>
+                        <li><h3>User Interface:</h3></li>
+                        <ul>
+                            <li>Clear and vibrant interface with interactive elements such as buttons and number input.</li>
+                            <li>Instructions and hints are displayed dynamically to guide the player.</li>
+                        </ul>
+                        <li><h3>Interactive Elements:</h3></li>
+                        <ul>
+                            <li>Players can interact with the game through number input and buttons for checking their guess and submitting the correct answer.</li>
+                            <li>Feedback is given in the form of text hints and audio cues for correct and incorrect guesses.</li>
+                        </ul>
+                    </ol>
+                    <h2>How to Play:</h2>
+                    <ol>
+                        <li><b>Select Level: </b>Choose your guessing level from the dropdown menu.</li>
+                        <li><b>Guess the Number: </b>Enter your guess in the number input field and click "Check" to see if it's correct.</li>
+                        <li><b>Hints: </b>If your guess is incorrect, hints will be provided:</li>
+                        <ul>
+                            <li>The sum of the digits of the correct number.</li>
+                            <li>The number of digits in the correct number.</li>
+                        </ul>
+                        <li><b>Submit: </b>If your guess is correct, click "Submit" to confirm and start a new round.</li>
+                        <li><b>Score Tracking: </b>Your current score and highest score are displayed at the top.</li>
+                    </ol>
+                    <h2>Technical Highlights:</h2>
+                    <ul>
+                        <li><b>HTML & CSS:</b> Provides a structured layout and responsive design for a seamless user experience.</li>
+                        <li><b>JavaScript:</b> Implements the game logic, including number generation, user input handling, and hint generation.</li>
+                        <li><b>Local Storage:</b> Utilized to save and display the highest score achieved by the player.</li>
+                    </ul>
+                    <h2>Challenges and Learning:</h2>
+                    <ul>
+                        <li><b>Responsive Design:</b> Ensuring the game is visually appealing and functional on both mobile and desktop devices.</li>
+                        <li><b>Game Logic: </b>Developing the logic for generating random numbers and providing meaningful hints.</li>
+                        <li><b>User Experience: </b>Creating an engaging and intuitive interface with immediate feedback for the player.</li>
+                    </ul>
+                    <h2>Conclusion:</h2>
+                    <p>Developing "Guess the Number" was a fantastic learning experience that helped enhance my coding skills and understanding of game development. I hope you enjoy playing the game and find it as challenging and fun as I intended.</p>
+                </div>
+            </div>
+            <div id="mod6">
+                <div id="mat">
+                    <button id="clo" onclick="clos6()">X</button>
+                    <h1 style="text-align: center;">Catch the Water Drops Game<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                    <p>"Catch the Water Drops" is an engaging browser-based game where players must catch falling water drops while avoiding ice cubes. The game challenges players to move a glass left and right to catch the water drops and increase their score. With vibrant visuals, responsive controls, and an escalating difficulty level, the game promises an enjoyable experience for players of all ages.</p>
+
+                    <h2>Features</h2>
+                    <ul style="text-align: left;">
+                        <li><strong>Responsive Design:</strong> The game is designed to work seamlessly on both desktop and mobile devices, ensuring a smooth and enjoyable user experience.</li>
+                        <li><strong>Interactive Gameplay:</strong> Players use arrow keys or touch controls to move the glass left and right. The goal is to catch falling water drops in the glass to score points while avoiding ice cubes.</li>
+                        <li><strong>Scoring System:</strong> Each water drop caught increases the player's score. The highest score achieved is saved and displayed, encouraging players to beat their previous best.</li>
+                        <li><strong>Game Mechanics:</strong> Water drops and ice cubes fall from the top of the screen at varying speeds. Catching an ice cube will break the glass. Players start with three glasses, and the game ends after all glasses are broken.</li>
+                        <li><strong>Audio and Visual Effects:</strong> Engaging sound effects and background music enhance the gaming experience. Visual feedback is provided for catching water drops and breaking glasses.</li>
+                        <li><strong>Instructions and User Interface:</strong> Clear instructions are provided at the start of the game. The user interface includes score displays, highest score display, and a restart option after the game ends.</li>
+                    </ul>
+
+                    <h2>How to Play</h2>
+                    <ol style="text-align: left;">
+                        <li>Click the "Start" button to begin the game. Instructions on how to play are displayed before starting.</li>
+                        <li><strong>Controls:</strong> On desktop: Use the left and right arrow keys to move the glass. On mobile: Move the glass by dragging it left and right on the screen.</li>
+                        <li><strong>Objective:</strong> Catch as many water drops as possible to increase your score. Avoid catching ice cubes to prevent breaking the glass.</li>
+                        <li><strong>Scoring:</strong> Your current score and highest score are displayed on the screen. The highest score is saved locally, allowing you to try and beat it in subsequent games.</li>
+                        <li><strong>Game Over:</strong> The game ends when all three glasses are broken. Players can restart the game by clicking the "Start Again" button.</li>
+                    </ol>
+
+                    <h2>Technical Highlights</h2>
+                    <ul style="text-align: left;">
+                        <li><strong>HTML & CSS:</strong> Provides the structure and styling for a visually appealing and responsive design.</li>
+                        <li><strong>JavaScript:</strong> Implements game logic, including water drop and ice cube generation, collision detection, and scoring.</li>
+                        <li><strong>Local Storage:</strong> Used to save and retrieve the highest score, providing a persistent high score feature.</li>
+                    </ul>
+
+                    <h2>Conclusion</h2>
+                    <p>Developing "Catch the Water Drops" was a fantastic learning experience, enhancing my skills in web development and game design. The project is designed to be both fun and challenging, offering a rewarding experience for players. I hope you enjoy playing the game and look forward to your feedback.</p>
+
+                </div>
+            </div>
+            <div id="mod7">
+                <div id="mat">
+                    <button id="clo" onclick="clos7()">X</button>
+                    <h1 style="text-align: center;">Age Calculator<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                <p>The "Age Calculator" is a simple and interactive web application that allows users to calculate their age based on their date of birth and the current date. The application provides accurate age information, including the number of years, months, and days, as well as how many days are left until the user's next birthday.</p>
+
+                <h2>Features</h2>
+                <ul>
+                    <li><b>Responsive Design: </b>The application is designed to work seamlessly on both desktop and mobile devices.</li>
+                    <li><b>Interactive User Interface: </b>Users can easily input their date of birth and the current date using date pickers.</li>
+                    <li><b>Real-time Age Calculation: </b>The application calculates the user's age instantly upon entering the required dates.</li>
+                    <li><b>Next Birthday Countdown: </b>The application also shows how many days are left until the user's next birthday.</li>
+                    <li><b>User-friendly Design: </b>The interface is clean and easy to navigate, making it accessible for users of all ages.</li>
+                </ul>
+
+                <h2>How to Use</h2>
+                <ol>
+                    <li>Open the Age Calculator application in your web browser.</li>
+                    <li>Enter your date of birth in the "Date Of Birth" field.</li>
+                    <li>Enter the current date in the "Today Date" field.</li>
+                    <li>Click the "Age" button to calculate your age.</li>
+                    <li>Your age will be displayed below the button, including the number of years, months, and days.</li>
+                    <li>The application will also display how many days are left until your next birthday.</li>
+                </ol>
+
+                <h2>Technical Details</h2>
+                <ul>
+                    <li><b>HTML & CSS: </b>Used for structuring and styling the application.</li>
+                    <li><b>JavaScript: </b>Implements the age calculation logic, including date parsing, difference calculation, and result display.</li>
+                    <li><b>Responsive Design: </b>Ensures the application works well on both desktop and mobile devices.</li>
+                </ul>
+
+                <h2>Conclusion</h2>
+                <p>Developing the "Age Calculator" application was an enriching experience that enhanced my web development skills, particularly in JavaScript and responsive design. The project aims to provide a useful tool for users to easily calculate their age and see the countdown to their next birthday. I hope you find this application helpful and look forward to your feedback.</p>
+                </div>
+            </div>
+            <div id="mod8">
+                <div id="mat">
+                    <button id="clo" onclick="clos8()">X</button>
+                    <h1 style="text-align: center;">Day Calculator<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                    <p>The "Day Calculator" is a simple web application that helps users determine the day of the week for any given date. Users can enter a date in the MM/DD/YYYY format, and the application will display the corresponding day of the week.</p>
+
+                    <h2>Features</h2>
+                    <ul>
+                        <li><b>Responsive Design: </b>The application works seamlessly on both desktop and mobile devices.</li>
+                        <li><b>Interactive User Interface: </b>Users can easily input a date using a text box and a button.</li>
+                        <li><b>Real-time Day Calculation: </b>The application instantly calculates and displays the day of the week for the entered date.</li>
+                        <li><b>User-friendly Design: </b>The interface is clean and intuitive, making it accessible for users of all ages.</li>
+                    </ul>
+
+                    <h2>How to Use</h2>
+                    <ol>
+                        <li>Open the Day Calculator application in your web browser.</li>
+                        <li>Enter a date in the "Date" field in the MM/DD/YYYY format.</li>
+                        <li>Click the "Find Day" button to calculate the day of the week.</li>
+                        <li>The day of the week will be displayed below the button.</li>
+                    </ol>
+
+                    <h2>Technical Details</h2>
+                    <ul>
+                        <li><b>HTML & CSS: </b>Used for structuring and styling the application.</li>
+                        <li><b>JavaScript: </b>Implements the logic for date parsing and day calculation.</li>
+                        <li><b>Responsive Design: </b>Ensures the application works well on both desktop and mobile devices.</li>
+                    </ul>
+
+                    <h2>Conclusion</h2>
+                    <p>Developing the "Day Calculator" application was a valuable learning experience, enhancing my skills in web development, particularly in JavaScript and responsive design. The project aims to provide a useful tool for users to easily find the day of the week for any given date. I hope you find this application helpful and look forward to your feedback.</p>
+                </div>
+            </div>
+            <div id="mod9">
+                <div id="mat">
+                    <button id="clo" onclick="clos9()">X</button>
+                    <h1 style="text-align: center;">SGPA & CGPA Calculator<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                    <p>The "SGPA & CGPA Calculator" is a web application designed to help students easily calculate their Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA). Users can select their respective branch and calculate their SGPA for the 7th semester as well as their current CGPA.</p>
+
+                    <h2>Features</h2>
+                    <ul>
+                        <li><b>Branch-Specific Calculations: </b>The calculator provides separate sections for different branches such as CE, EEE, ME, ECE, CSE, and AIML.</li>
+                        <li><b>Responsive Design: </b>Ensures the application works seamlessly on both desktop and mobile devices.</li>
+                        <li><b>User-Friendly Interface: </b>Simple and intuitive design makes it easy for students to input their grades and get their SGPA and CGPA.</li>
+                        <li><b>Visual Feedback: </b>Interactive buttons change color on hover to enhance the user experience.</li>
+                    </ul>
+
+                    <h2>How to Use</h2>
+                    <ol>
+                        <li>Open the GPA Calculator application in your web browser.</li>
+                        <li>Select your branch by clicking on the respective link (e.g., CE, EEE, ME, ECE, CSE, or AIML).</li>
+                        <li>Input your grades for the 7th semester to calculate your SGPA.</li>
+                        <li>Input your cumulative grades to calculate your CGPA.</li>
+                    </ol>
+
+                    <h2>Technical Details</h2>
+                    <ul>
+                        <li><b>HTML & CSS: </b>Used for structuring and styling the application.</li>
+                        <li><b>JavaScript: </b>Implements the logic for SGPA and CGPA calculations.</li>
+                        <li><b>Responsive Design: </b>Ensures the application is accessible on various devices, including smartphones and tablets.</li>
+                    </ul>
+
+                    <h2>Conclusion</h2>
+                    <p>Developing the "SGPA & CGPA Calculator" was a rewarding experience, enhancing my skills in web development, particularly in creating user-friendly interfaces and implementing interactive elements. The project aims to provide a convenient tool for students to calculate their academic performance easily. I hope you find this application useful and look forward to your feedback.</p>
+
+                </div>
+            </div>
+            <div id="mod10">
+                <div id="mat">
+                    <button id="clo" onclick="clos10()">X</button>
+                    <h1 style="text-align: center;">Programming Calculator<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                    <h2>Overview</h2>
+                    <p>The "Programming Calculator" is a comprehensive web application designed to assist with various mathematical and programming-related calculations. This tool is useful for programmers and developers who need to perform both basic arithmetic and bitwise operations. The calculator includes functionality for common arithmetic, prime checking, factorial calculation, square roots, and several bitwise operations.</p>
+
+                    <h2>Features</h2>
+                    <ul>
+                        <li><b> Basic Arithmetic: </b>Supports addition, subtraction, multiplication, division, and modulus operations.</li>
+                        <li><b>Bitwise Operations: </b>Includes bitwise AND, OR, XOR, NOT, LEFT SHIFT, and RIGHT SHIFT operations.</li>
+                        <li><b>Special Functions: </b>Offers functionality for calculating factorials, checking for prime numbers, and computing square roots.</li>
+                        <li><b> Interactive Interface: </b>User-friendly interface with clickable buttons and keyboard support for quick input.</li>
+                    </ul>
+
+                    <h2>How to Use</h2>
+                    <ol>
+                        <li>Open the Programming Calculator application in your web browser.</li>
+                        <li>Use the numeric buttons or your keyboard to input numbers.</li>
+                        <li>Click on the operation buttons or use the keyboard to perform the desired calculation.</li>
+                        <li>View the result in the display area at the top of the calculator.</li>
+                        <li>Use the CE (Clear Entry) button to clear the current input or the Back button to delete the last digit entered.</li>
+                        <li>Click on the "=" button or press Enter to display the result of the calculation.</li>
+                    </ol>
+
+                    <h2>Technical Details</h2>
+                    <ul>
+                        <li><b>HTML & CSS: </b>Used for structuring and styling the application.</li>
+                        <li><b>JavaScript: </b>Implements the logic for all arithmetic, special, and bitwise operations.</li>
+                        <li><b>Responsive Design: </b>Ensures the application works seamlessly on both desktop and mobile devices.</li>
+                    </ul>
+
+                    <h2>Conclusion</h2>
+                    <p>Developing the "Programming Calculator" was an enriching experience, enhancing my skills in web development, particularly in creating interactive and functional user interfaces. The project aims to provide a useful tool for programmers and developers who require quick and easy access to various mathematical operations. I hope you find this application helpful and look forward to your feedback.</p>
+
+                </div>  
+            </div>
+            <div id="mod11">
+                <div id="mat">
+                    <button id="clo" onclick="clos11()">X</button>
+                    <h1 style="text-align: center;">Ganesh-Food Ordering<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+                        <h2>Overview</h2>
+                        <p>Ganesh-Food Ordering is an online platform designed to facilitate convenient and efficient food ordering from a variety of local restaurants. The platform aims to enhance the dining experience by providing users with an easy-to-navigate website where they can browse menus, place orders, and track deliveries seamlessly.</p>
+                        <h2>Key Points</h2>
+                        <ul>
+                            <li>
+                                <h3>User-Friendly Interface</h3>
+                                <p>The website features a simple and intuitive design, making it easy for users to navigate through different sections, browse food items, and place orders. High-quality images and detailed descriptions of food items help users make informed choices.</p>
+                            </li>
+                            <li>
+                                <h3>Wide Range of Cuisines</h3>
+                                <p>The platform offers a diverse selection of cuisines to cater to various tastes and preferences. Users can find everything from traditional dishes to modern favorites, ensuring that there is something for everyone.</p>
+                            </li>
+                            <li>
+                                <h3>Efficient Order Management</h3>
+                                <p>Users can easily add items to their cart, customize their orders, and proceed to checkout with just a few clicks. Real-time updates on order status and delivery tracking enhance the overall user experience.</p>
+                            </li>
+                            <li>
+                                <h3>Secure and Reliable</h3>
+                                <p>The platform ensures secure handling of user data and transactions. Reliable delivery services ensure that food arrives fresh and on time.</p>
+                            </li>
+                            <li>
+                                <h3>Chef Profiles</h3>
+                                <p>Highlighting renowned chefs such as Sanjeev Kapoor and Anjum Anand adds a touch of credibility and appeal to the platform. Detailed chef profiles and images create a connection between the users and the culinary experts behind their favorite dishes.</p>
+                            </li>
+                            <li>
+                                <h3>About Us Section</h3>
+                                <p>A dedicated section to introduce the platform and its mission to provide exceptional service and a wide variety of food choices. Emphasis on the platform's commitment to user satisfaction and efficient service delivery.</p>
+                            </li>
+                            <li>
+                                <h3>Responsive Design</h3>
+                                <p>The website is designed to be fully responsive, ensuring a seamless experience across various devices, including desktops, tablets, and smartphones. Users can order food conveniently from any device, at any time.</p>
+                            </li>
+                            <li>
+                                <h3>Customer Support</h3>
+                                <p>A strong focus on customer service with easy access to support for any queries or feedback. Contact information is readily available to assist users with their needs.</p>
+                            </li>
+                        </ul>
+                        <h2>Conclusion</h2>
+                        <p>Ganesh-Food Ordering aims to revolutionize the online food ordering experience by offering a wide variety of cuisines, an easy-to-use interface, and reliable service. With a commitment to quality and customer satisfaction, the platform strives to become the go-to destination for all food lovers.</p>
+                </div>
+            </div>
+            <div id="mod7">
+                <div id="mat">
+                    <button id="clo" onclick="clos7()">X</button>
+                    <h1 style="text-align: center;">Memory Card Game<a href="#" style="font-size: 20px;">Click here</a></h1>
+                    <center>
+                    <video src="video.mp4" id="vid" controls ></video>
+                    </center>
+
+                </div>
+            </div>
+        </div> 
+        <div id="certificate">
+            <!-- <img src="certificate1.jpg" style="width: 1000; height: 800;"> -->
+            <div style="margin-top: 400px; margin-left: 150px;">
+                <button onclick="right()">Right</button>
+            </div>
+             <div>
+                <button id="cert" onclick="certificate()"></button>
+            </div>
+            <div style="margin-top: 400px; margin-left: 100px;">
+                <button onclick="left()">left</button>
+            </div>
+            <input value="0" id="val" style="display: none;">
+        </div> 
+        <div id="certify">
+            <button id="closecerti" onclick="clocer1()">X</button>
+            <img src="c2.png" style="width: 1000px;height: 500px;" id="changeimage">
         </div>
         <script>
+            let mo1=document.getElementById("mod1");
+            let mo2=document.getElementById("mod2");
+            let mo3=document.getElementById("mod3");
+            let mo4=document.getElementById("mod4");
+            let mo5=document.getElementById("mod5");
+            let mo6=document.getElementById("mod6");
+            let mo7=document.getElementById("mod7");
+            let mo8=document.getElementById("mod8");
+            let mo9=document.getElementById("mod9");
+            let mo10=document.getElementById("mod10");
+            let mo11=document.getElementById("mod11");
+            function clos1()
+            {
+                mo1.style.display="none";
+            }
+            function model1()
+            {
+                mo1.style.display="block";
+            }
+            function clos2()
+            {
+                mo2.style.display="none";
+            }
+            function model2()
+            {
+                mo2.style.display="block";
+            }
+            function clos3()
+            {
+                mo3.style.display="none";
+            }
+            function model3()
+            {
+                mo3.style.display="block";
+            }
+            function clos4()
+            {
+                mo4.style.display="none";
+            }
+            function model4()
+            {
+                mo4.style.display="block";
+            }
+            function clos5()
+            {
+                mo5.style.display="none";
+            }
+            function model5()
+            {
+                mo5.style.display="block";
+            }
+            function clos6()
+            {
+                mo6.style.display="none";
+            }
+            function model6()
+            {
+                mo6.style.display="block";
+            }
+            function clos7()
+            {
+                mo7.style.display="none";
+            }
+            function model7()
+            {
+                mo7.style.display="block";
+            }
+            function clos8()
+            {
+                mo8.style.display="none";
+            }
+            function model8()
+            {
+                mo8.style.display="block";
+            }
+            function clos9()
+            {
+                mo9.style.display="none";
+            }
+            function model9()
+            {
+                mo9.style.display="block";
+            }
+            function clos10()
+            {
+                mo10.style.display="none";
+            }
+            function model10()
+            {
+                mo10.style.display="block";
+            }
+            function clos11()
+            {
+                mo11.style.display="none";
+            }
+            function model11()
+            {
+                mo11.style.display="block";
+            }
+            let arr=["url('certificate1.jpg')","url('certificate2.jpg')"]
+            let arrcert=['c2.png','c3.png']
+            function certificate()
+            {
+                let dis=document.getElementById('certify');
+                dis.style.display="block";
+            }
+            function clocer1(){
+                let dis=document.getElementById('certify');
+                dis.style.display="none";
+            }
+            function left()
+            {
+                let top=document.getElementById('val').value;
+                top=Number(top);
+                top=top+1;
+                let c=document.getElementById('cert');
+                c.style.backgroundImage=arr[top];
+                if(top>=1)
+                {
+                    top=1;
+                }
+                document.getElementById('val').value=top;
+                document.getElementById('changeimage').src=arrcert[top];
+            }
+            function right()
+            {
+                let top=document.getElementById('val').value;
+                top=Number(top);
+                top=top-1;
+                let c=document.getElementById('cert');
+                c.style.backgroundImage=arr[top];
+                if(top<=0)
+                {
+                    top=0;
+                }
+                document.getElementById('val').value=top;
+                document.getElementById('changeimage').src=arrcert[top];
+            }
+            // let buttonElement=document.getElementById('cert');
+            // buttonElement.addEventListener('mouseover', () => {
+            //     let top=document.getElementById('val').value;
+            //     buttonElement.style.backgroundImage = arrcert[top];
+            // });
+
+            // buttonElement.addEventListener('mouseout', () => {
+            //     let top=document.getElementById('val').value;
+            //     buttonElement.style.backgroundImage = arr[top];
+            // });
             function light()
             {
                 let a=document.getElementById('bu').value;
@@ -269,6 +1141,7 @@
                     document.getElementById('bu').value='l';
                 }
             }
+            
 
 
         </script>
